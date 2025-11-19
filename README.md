@@ -1,5 +1,6 @@
 # NgX-Ray
 A Playwright-Powered Visibility & Permission Analyzer for AngularJS Applications
+-
 ---
 
 NgX-Ray is a security and front-end observability tool that scans AngularJS applications for:
