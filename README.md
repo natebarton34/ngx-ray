@@ -14,9 +14,11 @@ Then bundles them all into a:
 
 🖥️ Tkinter interface with live search + tabbed results
 
----
+
 
 This tool helps developers understand what UI elements are suppressed and how permission logic works in a web app without  access to the source code.
+
+---
 
 ✨ Features
 ✔️ DOM Hidden Element Scanner
