@@ -21,18 +21,21 @@ This tool helps developers understand what UI elements are suppressed and how pe
 
 ---
 
-✨ Features
+# ✨ Features
+
 ✔️ DOM Hidden Element Scanner
 
 Identifies:
 
-ng-hide, ng-if, ng-show
+- ng-hide, ng-if, ng-show
 
-CSS-based invisibility
+- CSS-based invisibility
 
-[hidden] attributes
+- [hidden] attributes
 
-Associated metadata (id, classList, data-qa-id, etc.)
+- Associated metadata (id, classList, data-qa-id, etc.)
+
+---
 
 ✔️ AngularJS Scope Permission Collector
 
