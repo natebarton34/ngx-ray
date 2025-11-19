@@ -1,0 +1,83 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pdb
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Playwright ----
+# Browser binaries + caches
+playwright/.cache/
+ms-playwright/
+
+# Trace + debugging artifacts
+playwright-report/
+test-results/
+
+# ---- VSCode ----
+.vscode/
+.code-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Environment Variables ----
+.env
+.env.*
+*.env
+
+# ---- Tkinter / App Data ----
+# (no Tkinter-specific files, but this prevents accidental GUI state dumps)
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Python Tools ----
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.dump
+.cache/
+
+# ---- Misc ----
+*.bak
+*.tmp
+tmp/
+temp/
