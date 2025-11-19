@@ -23,7 +23,7 @@ This tool helps developers understand what UI elements are suppressed and how pe
 
 # ✨ Features
 
-#✔️ DOM Hidden Element Scanner --
+# ✔️ DOM Hidden Element Scanner ---
 
 Identifies:
 
