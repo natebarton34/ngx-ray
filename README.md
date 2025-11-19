@@ -1,68 +1,56 @@
-# NgX-Ray
+# NgX-Ray  
 A Playwright-Powered Visibility & Permission Analyzer for AngularJS Applications
 
 ---
 
-NgX-Ray is a security and front-end observability tool that scans AngularJS applications for:
+NgX-Ray is a diagnostic and observability tool designed to reveal hidden UI logic inside AngularJS applications — even when the source code isn’t available.
 
-🔍 Hidden DOM elements (ng-hide, ng-if, ng-show, display:none, etc.)
+It performs three deep inspections:
 
-🔑 AngularJS scope permission variables
+🛠️ **Hidden DOM element detection** (`ng-hide`, `ng-if`, `ng-show`, CSS visibility rules, etc.)  
+🧩 **AngularJS scope permission extraction** (roles, permission flags, allow/can*, enabled states)  
+📡 **Network JSON permission mining** (server-side authorization indicators)
 
-🌐 Permission-like data in JSON network responses
+Then bundles all results into a clean, interactive:
 
-Then bundles them all into a:
+🖥️ **Tkinter desktop interface** with live search and organized tabs
 
-🖥️ Tkinter interface with live search + tabbed results
-
-
-
-This tool helps developers understand what UI elements are suppressed and how permission logic works in a web app without  access to the source code.
+This helps developers, testers, and security analysts understand how UI visibility, permissions, and authorization rules behave across dynamic AngularJS applications.
 
 ---
 
 ## ✨ Features
 
-### ✔️ DOM Hidden Element Scanner
+### ✔️ DOM Hidden Element Scanner  
+Detects UI elements that are hidden due to:
 
-Identifies:
+- AngularJS directives (`ng-hide`, `ng-if`, `ng-show`)  
+- CSS-based invisibility  
+- Native `[hidden]` attributes  
+- Additional metadata (`id`, `classList`, `data-qa-id`, etc.)
 
-- ng-hide, ng-if, ng-show
+### ✔️ AngularJS Scope Permission Collector  
+Recursively explores AngularJS scopes to uncover permission-related values such as:
 
-- CSS-based invisibility
+- role variables  
+- boolean permission flags  
+- `"can*"` variables  
+- allow/enabled fields  
+- strings, numbers, and booleans stored in scope trees
 
-- [hidden] attributes
+### ✔️ Network Response Permission Miner  
+Intercepts JSON responses to extract authorization-related fields:
 
-- Associated metadata (id, classList, data-qa-id, etc.)
+- `permissions`  
+- `roles`  
+- `canView`, `canEdit`, `allowed`, `enabled`, etc.
 
-### ✔️ AngularJS Scope Permission Collector
+### ✔️ Tkinter Desktop UI  
+Provides an accessible interface with:
 
-Recursively walks AngularJS scopes to find:
+- 📁 Three structured tabs (DOM, AngularJS, Network)  
+- 🔎 Live search across all tabs  
+- 🧮 Auto-formatted, grouped result sets  
+- 🌐 Automatic Chromium browser launch powered by Playwright
 
-- role variables
-
-- permission flags
-
-- "can*" variables
-
-- booleans, numbers, and strings
-
-### ✔️ Network Response Permission Miner
-
-Intercepts JSON responses and finds:
-
-- permissions
-
-- roles
-
-- canView, canEdit, allowed, enabled, etc.
-
-### ✔️ Tkinter Desktop UI
-
-- 3 Tab interface
-
-- Live search
-
-- Auto-grouped results
-
-- Chromium Browser that launches automatically using Playwright
+---
