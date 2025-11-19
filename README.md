@@ -16,4 +16,49 @@ Then bundles them all into a:
 
 ---
 
-This tool helps developers and security engineers understand what UI elements are suppressed and how permission logic propagates through the app—without needing access to source code.
+This tool helps developers understand what UI elements are suppressed and how permission logic works in a web app without  access to the source code.
+
+✨ Features
+✔️ DOM Hidden Element Scanner
+
+Identifies:
+
+ng-hide, ng-if, ng-show
+
+CSS-based invisibility
+
+[hidden] attributes
+
+Associated metadata (id, classList, data-qa-id, etc.)
+
+✔️ AngularJS Scope Permission Collector
+
+Recursively walks AngularJS scopes to find:
+
+role variables
+
+permission flags
+
+"can*" variables
+
+booleans, numbers, and strings
+
+✔️ Network Response Permission Miner
+
+Intercepts JSON responses and finds:
+
+permissions
+
+roles
+
+canView, canEdit, allowed, enabled, etc.
+
+✔️ Tkinter Desktop UI
+
+3 Tab interface
+
+Live search
+
+Auto-grouped results
+
+Browser launches automatically using Playwright
