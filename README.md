@@ -48,7 +48,7 @@ Intercepts JSON responses to extract authorization-related fields:
 ### ✔️ Tkinter Desktop UI  
 Provides an accessible interface with:
 
-- 📁 Three structured tabs (DOM, AngularJS, Network)  
+- 📁 Three structured tabs (DOM Hidden Elements, AngularJS Permissions, Network Permissions)  
 - 🔎 Live search across all tabs  
 - 🧮 Auto-formatted, grouped result sets  
 - 🌐 Automatic Chromium browser launch powered by Playwright
