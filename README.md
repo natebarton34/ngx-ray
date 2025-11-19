@@ -10,9 +10,7 @@ NgX-Ray is a security and front-end observability tool that scans AngularJS appl
 
 🌐 Permission-like data in JSON network responses
 
----
-
-And bundles them all into a:
+Then bundles them all into a:
 
 🖥️ Tkinter interface with live search + tabbed results
 
