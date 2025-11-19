@@ -21,9 +21,9 @@ This tool helps developers understand what UI elements are suppressed and how pe
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-# ✔️ DOM Hidden Element Scanner ---
+### ✔️ DOM Hidden Element Scanner
 
 Identifies:
 
@@ -35,36 +35,34 @@ Identifies:
 
 - Associated metadata (id, classList, data-qa-id, etc.)
 
----
-
-✔️ AngularJS Scope Permission Collector
+### ✔️ AngularJS Scope Permission Collector
 
 Recursively walks AngularJS scopes to find:
 
-role variables
+- role variables
 
-permission flags
+- permission flags
 
-"can*" variables
+- "can*" variables
 
-booleans, numbers, and strings
+- booleans, numbers, and strings
 
-✔️ Network Response Permission Miner
+### ✔️ Network Response Permission Miner
 
 Intercepts JSON responses and finds:
 
-permissions
+- permissions
 
-roles
+- roles
 
-canView, canEdit, allowed, enabled, etc.
+- canView, canEdit, allowed, enabled, etc.
 
-✔️ Tkinter Desktop UI
+### ✔️ Tkinter Desktop UI
 
-3 Tab interface
+- 3 Tab interface
 
-Live search
+- Live search
 
-Auto-grouped results
+- Auto-grouped results
 
-Browser launches automatically using Playwright
+- Chromium Browser that launches automatically using Playwright
