@@ -7,21 +7,21 @@ NgX-Ray is a diagnostic and observability tool designed to reveal hidden UI logi
 
 It performs three deep inspections:
 
-🛠️ **Hidden DOM element detection** (`ng-hide`, `ng-if`, `ng-show`, CSS visibility rules, etc.)  
-🧩 **AngularJS scope permission extraction** (roles, permission flags, allow/can*, enabled states)  
-📡 **Network JSON permission mining** (server-side authorization indicators)
+**Hidden DOM element detection** (`ng-hide`, `ng-if`, `ng-show`, CSS visibility rules, etc.)  
+**AngularJS scope permission extraction** (roles, permission flags, allow/can*, enabled states)  
+**Network JSON permission mining** (server-side authorization indicators)
 
 Then bundles all results into a clean, interactive:
 
-🖥️ **Tkinter desktop interface** with live search and organized tabs
+**Tkinter desktop interface** with live search and organized tabs
 
 This helps developers, testers, and security analysts understand how UI visibility, permissions, and authorization rules behave across dynamic AngularJS applications.
 
 ---
 
-## ✨ Features
+## Features
 
-### ✔️ DOM Hidden Element Scanner  
+### DOM Hidden Element Scanner  
 Detects UI elements that are hidden due to:
 
 - AngularJS directives (`ng-hide`, `ng-if`, `ng-show`)  
@@ -29,7 +29,7 @@ Detects UI elements that are hidden due to:
 - Native `[hidden]` attributes  
 - Additional metadata (`id`, `classList`, `data-qa-id`, etc.)
 
-### ✔️ AngularJS Scope Permission Collector  
+### AngularJS Scope Permission Collector  
 Recursively explores AngularJS scopes to uncover permission-related values such as:
 
 - role variables  
@@ -38,20 +38,20 @@ Recursively explores AngularJS scopes to uncover permission-related values such 
 - allow/enabled fields  
 - strings, numbers, and booleans stored in scope trees
 
-### ✔️ Network Response Permission Miner  
+### Network Response Permission Miner  
 Intercepts JSON responses to extract authorization-related fields:
 
 - `permissions`  
 - `roles`  
 - `canView`, `canEdit`, `allowed`, `enabled`, etc.
 
-### ✔️ Tkinter Desktop UI  
+### Tkinter Desktop UI  
 Provides an accessible interface with:
 
-- 📁 Three structured tabs (DOM Hidden Elements, AngularJS Permissions, Network Permissions)  
-- 🔎 Live search across all tabs  
-- 🧮 Auto-formatted, grouped result sets  
-- 🌐 Automatic Chromium browser launch powered by Playwright
+- Three structured tabs (DOM Hidden Elements, AngularJS Permissions, Network Permissions)  
+- Live search across all tabs  
+- Auto-formatted, grouped result sets  
+- Automatic Chromium browser launch powered by Playwright
 
 ---
 # Installation
