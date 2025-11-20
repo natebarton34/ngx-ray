@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 playwright install
 
-cd /src
+cd src
 
 python main.py
 
