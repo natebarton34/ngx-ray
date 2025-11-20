@@ -3,7 +3,7 @@ A Playwright-Powered Visibility & Permission Analyzer for AngularJS Applications
 
 ---
 
-NgX-Ray is a diagnostic and observability tool designed to reveal hidden UI logic inside AngularJS applications — even when the source code isn’t available.
+NgX-Ray is a diagnostic and observability tool designed to reveal hidden UI logic inside AngularJS applications.
 
 It performs three deep inspections:
 
