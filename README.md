@@ -57,7 +57,7 @@ Provides an accessible interface with:
 # Installation
 git clone https://github.com/natebarton34/ngx-ray
 
-cd ngx-ray/src
+cd src
 
 pip install -r requirements.txt
 
