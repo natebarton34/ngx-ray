@@ -133,8 +133,8 @@ python server.py
 
 ---
 ## 🖼️ Scan Button Clicked  
-![[testapp_2.png|500]]
+![Login_PopUp](images/testapp_2.png)
 
 ---
 ## 🖼️ Playwright Browser Launch  
-![[testapp_1 1.png]]
+![Test Browser](images/testapp1.png)
