@@ -31,4 +31,4 @@ cd src
 playwright install
 ```
 
- ![[EnvironmentSetup_Code.png]]
+ ![Environment Setup Code](images/EnvironmentSetup_Code.png)
