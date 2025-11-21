@@ -1,6 +1,6 @@
 A local AngularJS-style demo app is used for safe testing.  
-It includes:
 
+It includes:
 - ng-hide, ng-if, ng-show  
 - CSS-hidden elements  
 - AngularJS permission flags  
