@@ -8,13 +8,13 @@ Input: http://localhost:8000
 Below are the findings from each tab of NgX-Ray.
 
 ---
-## 🟦 Hidden Elements Tab
+##  Hidden Elements Tab
 ![Hidden Elements Tab](images/testapp3.png)
 
 ---
-## 🟩 Angular Permissions Tab
+##  Angular Permissions Tab
 ![Angular Permissions Tab](images/testapp4.png)
 
 ---
-## 🟧 Network Permissions Tab
+##  Network Permissions Tab
 ![Network Permissions Tab](images/testapp5.png)
