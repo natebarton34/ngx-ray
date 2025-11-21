@@ -9,12 +9,12 @@ Below are the findings from each tab of NgX-Ray.
 
 ---
 ## 🟦 Hidden Elements Tab
-![[testapp_3.png|]]
+![Hidden Elements Tab](images/testapp3.png)
 
 ---
 ## 🟩 Angular Permissions Tab
-![[testapp4.png]]
+![Angular Permissions Tab](images/testapp4.png)
 
 ---
 ## 🟧 Network Permissions Tab
-![[testapp5.png]]
+![Network Permissions Tab](images/testapp5.png)
