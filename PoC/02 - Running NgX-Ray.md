@@ -6,4 +6,4 @@ python main.py
 ```
 
 
-![NgX-Ray_UI](images/NGX-Ray_UI.png)
+![NgX-Ray_UI](images/NgX-Ray_UI.png)
